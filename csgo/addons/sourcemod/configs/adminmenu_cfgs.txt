@@ -1,0 +1,7 @@
+Configs
+{
+	"cfg/live.cfg"				"Live!"
+	"cfg/esl5on5knife.cfg"		"TiTe 5vs5 - Knife round"
+	"cfg/esl5on5.cfg"			"TiTe 5vs5"
+	"cfg/server.cfg"			"Refresh server settings"
+}

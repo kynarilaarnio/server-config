@@ -1,0 +1,32 @@
+"Commands"
+{
+	"Team Management"
+	{
+		"Swap Teams"
+		{
+			"cmd"		"mp_swapteams"
+			"execute"	"server"
+			"admin"		"m"
+		}
+
+		"Switch Player Team"
+		{
+			"admin" "sm_admin"
+			"cmd"  "sm_cfmswap playerlist"
+			"execute" "player"
+		}
+
+		"Player to Spec"
+		{
+			"admin" "sm_admin"
+			"cmd"  "sm_cfmspec playerlist"
+			"execute" "player"
+		 }
+
+		"Check if teams ready"
+		{
+			"cmd"		"sm_vote Ready Yes"
+			"execute"	"server"
+		}
+	}
+}
